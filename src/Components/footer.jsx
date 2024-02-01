@@ -28,7 +28,7 @@ const Footer = () => {
 
     </div>
 
-        <div className="container">
+        <div className=" container">
             <div className="row">
                
                 {/* col1 */}
@@ -111,8 +111,8 @@ const Footer = () => {
 
        
         <div className="footer-bel-links">
-            <Link to="/disclaimer"><div><p>Disclaimer</p></div></Link>
-            <Link t="/tandc"><div><p>Terms and Conditions</p></div></Link>
+            <Link to="/disclaimer"><div ><p>Disclaimer</p></div></Link>
+            <Link to="/tandc"><div><p>Terms and Conditions</p></div></Link>
             <Link to="/privacy"><div><p>Privacy Policy</p></div></Link>
         </div>
     </div>

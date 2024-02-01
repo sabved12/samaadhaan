@@ -7,7 +7,7 @@
 .main-footer{
     background-image: linear-gradient(rgba(4,9,30,0.8),rgba(4,9,30,0.8)),url("vegies.jpg");
     /* background-repeat: no-repeat; */
-    /* background-position:cover ; */
+    background-position:cover ;
     color:white;    
     padding-top: 3rem;
     bottom: 0;
@@ -16,12 +16,12 @@
 .container{    
     margin:auto;
     /* min-height: 100vh; */
-    text-align: center;
+    text-align:center;
     padding-top: 70px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap; 
-}
+} 
 .row{
     
     width: 100%;
@@ -109,6 +109,7 @@ p{
 .footer-bel-links p{
     font-size:1.2rem;
     margin-left:3rem;
+    
 }
 a{
     text-decoration: none;
@@ -171,9 +172,9 @@ a{
 .row{
     justify-content: flex-start;
     display: block;
-
+    flex-basis: 50%;
+    /* flex-grow: inherit; */
 }
- 
 }
 @media screen and (max-width:550px){
     col h1{
@@ -199,5 +200,8 @@ a{
         flex-direction: column;
         /* justify-content: center; */
         align-items: center;
+    }
+    .box{
+        font-size:1.2rem
     }
 }
